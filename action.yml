@@ -1,0 +1,7 @@
+name: setup-node
+description: "setting up node environment"
+author: "me"
+
+runs:
+  using: node12
+  main: setup-node/setup/index.js
