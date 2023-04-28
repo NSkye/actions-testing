@@ -72050,6 +72050,8 @@ const installer_factory_1 = __nccwpck_require__(5617);
 const util_1 = __nccwpck_require__(2629);
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
+        // eslint-disable-next-line no-console
+        console.log('Running setup-node');
         try {
             //
             // Version is optional.  If supplied, install / use from the tool cache

@@ -11,6 +11,9 @@ import {getNodejsDistribution} from './distributions/installer-factory';
 import {parseNodeVersionFile, printEnvDetailsAndSetOutput} from './util';
 
 export async function run() {
+  // eslint-disable-next-line no-console
+  console.log('Running setup-node');
+
   try {
     //
     // Version is optional.  If supplied, install / use from the tool cache
